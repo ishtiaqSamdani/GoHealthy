@@ -34,6 +34,7 @@ body {
 }
 
 .ul_nav {
+  grid-column-gap: 2rem;
   width: 100%;
   justify-content: center;
 }
@@ -98,13 +99,14 @@ body {
 .heading__ {
   font-weight: bold;
   position: relative;
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 2rem 0;
 }
 .title_section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding: 4rem;
+  margin-left: 6rem;
 }
 
 button.btn_book_appointment {
@@ -154,4 +156,74 @@ button.btn_book_appointment {
   background-color: var(--clr-primary);
   border-radius: 2rem;
   top: -0.25rem;
+}
+.foot{
+  display: flex;
+  padding: 1.5rem;
+  background-color: var(--clr-primary);
+}
+.social{
+  margin-top: 1rem;
+  margin-left: 23rem;
+}
+.don{
+  height: 10vh;
+ 
+ padding: 0rem;
+ background-color: red;
+}
+
+.inp{
+  padding: 0px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 4.6rem;
+  padding: 50px;
+  width: 35rem;
+  background-color: white;
+  box-shadow: 4px 4px 10px grey;
+}
+
+.data_inp{
+  width: 200px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.but_app{
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: var(--clr-accent) ;
+  border: 1px solid var(--clr-accent);
+  font-weight: bold;
+}
+
+.but_app:hover{
+
+  background-color: var(--clr-primary);
+  color: white;
+  border: 1px solid var(--clr-primary);
+  font-weight: bold;
+}
+.log{
+  padding: 2rem;
+  margin: 11.5rem;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 10px;
+   box-shadow: 4px 4px 10px grey;
+   width: 30rem;
+}
+.in_dat{
+  margin: 10px;
+}
+.but_{
+  margin-top: 1rem;
+  padding: 4px;
+  width: 80px;
+  border-radius: 30px;
+  background-color: var(--clr-accent) ;
+  border: 1px solid var(--clr-accent);
+  font-weight: bold;
 }
