@@ -1,0 +1,72 @@
+:root {
+  --clr-primary: #5a58db;
+  --clr-accent: #90b7f1;
+  --clr-gry: #e8e8e8;
+}
+
+body {
+  background-color: var(--clr-gry);
+}
+
+.bg_color {
+  background: var(--clr-primary) !important;
+}
+
+.txt_color {
+  color: white !important;
+}
+.img_logo {
+  height: 3.5rem;
+  width: auto;
+}
+
+.ul_nav {
+  width: 100%;
+  justify-content: center;
+}
+
+.nav-item:first-child,
+.nav-item:last-child {
+  margin-left: auto;
+  padding: 0;
+}
+.login_btn {
+  background: var(--clr-accent);
+  padding: 0.2em 1em !important;
+  border-radius: 1.25em;
+}
+
+.btn_4 {
+  outline: none;
+  color: transparent;
+  position: relative;
+}
+.btn_4::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: transform 250ms ease-in;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: rgb(243, 190, 17);
+}
+.btn_4:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.login_btn {
+  display: flex;
+}
+.arrow_ {
+  transition: transform 250ms ease;
+}
+.login_btn:hover .arrow_ {
+  transform: translateX(7.5px);
+}
+
+/* .login_btn:hover .arrow_ {
+  margin-left: 1rem;
+} */
