@@ -21,6 +21,7 @@ body {
 }
 
 .nav_fixed {
+  padding: 0 !important;
   position: fixed;
   width: 100%;
 }
@@ -273,4 +274,10 @@ button.btn_book_appointment {
   width: 38px;
   background-color: #f24c4c;
   border-radius: 25px;
+}
+
+.btn_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
